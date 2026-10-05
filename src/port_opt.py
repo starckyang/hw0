@@ -35,6 +35,7 @@ def find_global_minimum_variance_portfolio(Sigma):
     return wstar
 
 
+
 def find_tangency_portfolio(mu, Sigma, rf):
     """Weights of the portfolio of risky assets with the highest Sharpe ratio.
 
